@@ -3,6 +3,8 @@ import requests
 import pandas as pd
 import sqlite3
 
+#bk
+
 try:
     response =  requests.get("https://www.imdb.com/chart/top")
     soup = BeautifulSoup(response.text,"html.parser")
